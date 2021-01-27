@@ -6,15 +6,23 @@
   padding: 0;
 }
 
+<<<<<<< HEAD
 /* Импорт шрифта из Google fonts */
 body {
   max-width: 100%;
+=======
+body {
+>>>>>>> Lesson1
   font-family: 'Lato', sans-serif;
 }
 
 /* Центрирование страницы */
 .container {
+<<<<<<< HEAD
   max-width: 1140px;
+=======
+  width: 1140px;
+>>>>>>> Lesson1
   margin: 0 auto;
 }
 
@@ -32,18 +40,27 @@ body {
   line-height: 16px;
 }
 
+<<<<<<< HEAD
 header {
   background-color: #222222;
   max-width: 100%;
 }
 
 header .caption {
+=======
+.header {
+  background: #222222;
+}
+
+.header_menu {
+>>>>>>> Lesson1
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+<<<<<<< HEAD
   padding-top: 20px;
   padding-bottom: 20px;
   height: 75px;
@@ -65,6 +82,38 @@ header .caption_nav {
 header .caption_nav_button {
   padding-top: 9px;
   padding-right: 18px;
+=======
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.header_search_button {
+  margin-left: 41px;
+}
+
+.header_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header_nav_dropdown {
+  position: relative;
+  display: inline-block;
+  border: none;
+  padding-top: 13px;
+}
+
+.header_nav_dropdown_button {
+  margin-right: 33px;
+  background: none;
+  outline: none;
+}
+
+.header_nav_button {
+  padding-top: 9px;
+  margin-right: 33px;
+>>>>>>> Lesson1
 }
 
 .top {
@@ -74,7 +123,10 @@ header .caption_nav_button {
   height: 764px;
   background: #F1E4E6;
   margin-bottom: 65px;
+<<<<<<< HEAD
   z-index: 0;
+=======
+>>>>>>> Lesson1
 }
 
 .top_image {
@@ -85,10 +137,19 @@ header .caption_nav_button {
 }
 
 .top_intro {
+<<<<<<< HEAD
   text-transform: uppercase;
   position: relative;
   top: 290px;
   margin-left: 63px;
+=======
+  position: relative;
+  top: 290px;
+  margin-left: 63px;
+}
+
+.top_intro_text {
+>>>>>>> Lesson1
   height: 82px;
   font-size: 32px;
   font-weight: 700;
@@ -100,19 +161,28 @@ header .caption_nav_button {
   padding-left: 16px;
 }
 
+<<<<<<< HEAD
 .top_intro_big {
+=======
+.top_intro_text_big {
+>>>>>>> Lesson1
   font-weight: 900;
   font-size: 48px;
   line-height: 36px;
 }
 
+<<<<<<< HEAD
 .top_intro_red {
+=======
+.top_intro_text_red {
+>>>>>>> Lesson1
   font-size: 37px;
   font-weight: 700;
   line-height: 42px;
   color: #F16D7F;
 }
 
+<<<<<<< HEAD
 .top_intro:hover {
   opacity: 1;
 }
@@ -123,6 +193,13 @@ header .caption_nav_button {
 }
 
 .offer_box_line {
+=======
+.offer_box {
+  margin-bottom: 30px;
+}
+
+.offer_box_line1 {
+>>>>>>> Lesson1
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,6 +209,7 @@ header .caption_nav_button {
   margin-bottom: 30px;
 }
 
+<<<<<<< HEAD
 .offer_box_line_2 {
   margin-bottom: 96px;
 }
@@ -164,6 +242,37 @@ header .caption_nav_button {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+=======
+.offer_box_line2 {
+  margin-bottom: 96px;
+}
+
+.content_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 18px;
+  margin-bottom: 95px;
+}
+
+.content_button_push {
+  text-align: center;
+  border: 1px solid #FF6A6A;
+  padding: 14px 38px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F26376;
+  text-decoration: none;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+>>>>>>> Lesson1
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -176,6 +285,7 @@ header .caption_nav_button {
   background: #FBFBFB;
 }
 
+<<<<<<< HEAD
 .cards .card_box {
   list-style: none;
 }
@@ -226,13 +336,40 @@ header .caption_nav_button {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 400;
+=======
+.card_box_title {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+  margin-bottom: 6px;
+}
+
+.card_box_text {
+  text-align: center;
+  font-size: 14px;
+  color: #9F9F9F;
+  margin-bottom: 48px;
+}
+
+.card_information {
+  padding: 25px 28px 20px 16px;
+}
+
+.card_information_title {
+  font-size: 13px;
+>>>>>>> Lesson1
   line-height: 16px;
   color: #000000;
   margin-bottom: 13px;
 }
 
+<<<<<<< HEAD
 .cards .card_information_text {
   display: block;
+=======
+.card_information_text {
+>>>>>>> Lesson1
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -240,25 +377,38 @@ header .caption_nav_button {
   margin-bottom: 18px;
 }
 
+<<<<<<< HEAD
 .cards .card_line {
+=======
+.card_line1 {
+>>>>>>> Lesson1
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
+<<<<<<< HEAD
 .cards .card_line2 {
+=======
+.card_line2 {
+>>>>>>> Lesson1
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
+<<<<<<< HEAD
 .cards .card_price {
   display: block;
+=======
+.card_price {
+>>>>>>> Lesson1
   font-size: 16px;
   line-height: 19px;
   color: #F16D7F;
 }
 
+<<<<<<< HEAD
 .cards .card:hover .card_img {
   opacity: 0.8;
   -webkit-filter: brightness(50%);
@@ -309,6 +459,13 @@ header .caption_nav_button {
 
 .bottom .services {
   background: #222224;
+=======
+.footer {
+  background: #222224;
+}
+
+.footer_services {
+>>>>>>> Lesson1
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,7 +474,11 @@ header .caption_nav_button {
           justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .bottom .services_service {
+=======
+.footer_services_service {
+>>>>>>> Lesson1
   width: 360px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -333,14 +494,22 @@ header .caption_nav_button {
   margin-top: 103px;
 }
 
+<<<<<<< HEAD
 .bottom .services_title {
+=======
+.footer_services_title {
+>>>>>>> Lesson1
   font-size: 19.96px;
   line-height: 24px;
   color: #FBFBFB;
   margin-top: 25px;
 }
 
+<<<<<<< HEAD
 .bottom .services_text {
+=======
+.footer_services_text {
+>>>>>>> Lesson1
   max-width: 360px;
   font-size: 13.972px;
   line-height: 17px;
@@ -350,16 +519,21 @@ header .caption_nav_button {
   opacity: 0.7;
 }
 
+<<<<<<< HEAD
 /* Footer */
 footer {
   background: #222224;
 }
 
 footer .overal {
+=======
+.footer_overal {
+>>>>>>> Lesson1
   background-image: url(img/FooterBack.png);
   background-size: cover;
 }
 
+<<<<<<< HEAD
 footer .overal_box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -370,6 +544,18 @@ footer .overal_box {
 }
 
 footer .overal_introduction {
+=======
+.footer_overal_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer_overal_introduction {
+>>>>>>> Lesson1
   margin-top: 97px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -381,7 +567,11 @@ footer .overal_introduction {
   text-align: center;
 }
 
+<<<<<<< HEAD
 footer .overal_introduction_text {
+=======
+.footer_overal_introduction_text {
+>>>>>>> Lesson1
   width: 360px;
   font-size: 20px;
   font-style: italic;
@@ -392,7 +582,11 @@ footer .overal_introduction_text {
   margin-bottom: 126px;
 }
 
+<<<<<<< HEAD
 footer .overal_text {
+=======
+.footer_overal_text {
+>>>>>>> Lesson1
   text-align: center;
   font-weight: bold;
   font-weight: 400;
@@ -401,14 +595,22 @@ footer .overal_text {
   line-height: 28px;
 }
 
+<<<<<<< HEAD
 footer .overal_text_big {
+=======
+.footer_overal_text_big {
+>>>>>>> Lesson1
   text-align: center;
   font-weight: 700;
   font-size: 24px;
   line-height: 38px;
 }
 
+<<<<<<< HEAD
 footer .overal_subscription {
+=======
+.footer_overal_subscription {
+>>>>>>> Lesson1
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -419,10 +621,16 @@ footer .overal_subscription {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+<<<<<<< HEAD
   margin-right: 80px;
 }
 
 footer .overal_subscription_figure {
+=======
+}
+
+.footer_overal_subscription_figure {
+>>>>>>> Lesson1
   width: 356px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -436,7 +644,11 @@ footer .overal_subscription_figure {
   border-radius: 25px;
 }
 
+<<<<<<< HEAD
 footer .overal_subscription_figure_enter {
+=======
+.footer_overal_subscription_figure_enter {
+>>>>>>> Lesson1
   width: 256px;
   padding: 7px 64px 6px 22px;
   background: #E1E1E1;
@@ -447,7 +659,11 @@ footer .overal_subscription_figure_enter {
   line-height: 17px;
 }
 
+<<<<<<< HEAD
 footer .overal_subscription_figure_submit {
+=======
+.footer_overal_subscription_figure_submit {
+>>>>>>> Lesson1
   padding: 17px;
   width: 100px;
   border: none;
@@ -467,7 +683,11 @@ footer .overal_subscription_figure_submit {
   border-bottom-right-radius: 25px;
 }
 
+<<<<<<< HEAD
 footer .navbar_box {
+=======
+.footer_nav {
+>>>>>>> Lesson1
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -475,16 +695,23 @@ footer .navbar_box {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 30px 0;
+<<<<<<< HEAD
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 footer .navbar_copyright {
+=======
+}
+
+.footer_nav_copyright {
+>>>>>>> Lesson1
   font-size: 16px;
   line-height: 19px;
   color: #FBFBFB;
 }
 
+<<<<<<< HEAD
 footer .navbar_links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -502,5 +729,15 @@ footer .navbar_links_img:hover {
   color: #000;
   opacity: 0.8;
   overflow: hidden;
+=======
+.footer_nav_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_nav_links_img {
+  margin-right: 7.29px;
+>>>>>>> Lesson1
 }
 /*# sourceMappingURL=style.css.map */
